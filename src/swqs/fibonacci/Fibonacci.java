@@ -4,7 +4,11 @@ public class Fibonacci {
 	
 	private CachingService cachingService;
 	
-	public long fib(int n) {
+	public void setCachingService(CachingService cachingService) {
+		this.cachingService = cachingService;
+	}
+
+	public long fib(long n) {
 		long fib = cachingService.getFib(n);
 		if(fib > 0){
 			return fib;
