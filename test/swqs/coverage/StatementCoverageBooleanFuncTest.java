@@ -16,7 +16,7 @@ public class StatementCoverageBooleanFuncTest {
 	
 	@Test
 	public void testAAndbOrC_falsefalsetrue() throws Exception {
-		assertThat(aAndbOrC(false, false, true), is(true));
+		assertThat(aAndbOrC(false, true, true), is(true));
 	}
 	
 	@Test

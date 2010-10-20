@@ -1,6 +1,6 @@
 package swqs.coverage;
 
-public class SumUtil {
+public final class SumUtil {
 	
 	public static int sum(int values[], int offset){
 		int result = 0;
