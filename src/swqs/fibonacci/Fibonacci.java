@@ -20,7 +20,7 @@ public class Fibonacci {
         else { 
         	fib = fib(n-1) + fib(n-2);
         	cachingService.addFib(fib);
-        	return fib(n-1) + fib(n-2);
+        	return fib;
         }
     }
 
